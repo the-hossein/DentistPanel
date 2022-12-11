@@ -1,0 +1,51 @@
+.row-fields{
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    width: 100%; 
+    margin-top: 2rem;
+}
+.row-fields.center-row{
+    justify-content: center;
+}
+.row-fields textarea{
+    margin: 2px 1rem;
+}
+.row-fields > div{
+    margin: 1rem;
+}
+.row-fields .MuiInputLabel-formControl{
+    left: auto;
+    right: 0px;
+}
+.row-fields  .MuiSelect-select{
+    min-width: 160px;
+}
+.row-fields label , .row-fields  input::placeholder  ,.row-fields  input , .row-fields div ,.row-fields textarea ,.row-fields textarea::placeholder , .row-fields span{
+    font-family:"IRANSansWeb" !important;
+    text-align: right;
+}
+.row-fields textarea{
+    padding: 12px;
+}
+.row-fields button{
+    margin: 1rem;
+}
+.row-fields .error-btn{
+    background-color: var(--error);
+    border: none;
+}
+.row-fields .error-btn span{
+    color: white;
+}
+.row-fields .error-btn:hover span{
+    color: var(--error  );
+}
+.row-fields .MuiSelect-icon{
+    left: 0px;
+    right: auto;
+}
+.row-fields .ltr-input{
+    direction: ltr;
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+export const BaseUrl = "https://api1.karmaagy.com/";
+export const SignUpReqest = "api/v1/User/Signup";
+export const LoginReqest = "api/v1/User/GetProfile"
+export const GetAllSample = "api/Samples/GetAllSample"
+export const UploadFileRequest ="api/v1/Files/Upload"
+export const UpdateSampleRequest = "api/Samples/UpdateSample"
+export const GetSampleRequest = "api/Samples/GetSample"
+export const CreateSampleRequest = "api/Samples/CreateSample"
+export const UpdateAccessLevelRequest = "api/v1/User/UpdateAccessLevel"

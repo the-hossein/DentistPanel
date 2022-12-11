@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("./fonts/eot/IRANSansWeb.eot");
+  src: url("./fonts/eot/IRANSansWeb.eot") format("embedded-opentype"),
+  url("./fonts/woff/IRANSansWeb.woff") format("woff"),
+  url("./fonts/ttf/IRANSansWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Fontjo.com/Roboto-Medium.ttf");
+  src: url("./fonts/Roboto-Fontjo.com/Roboto-Medium.ttf"), 
+  url("./fonts/Roboto-Fontjo.com/Roboto-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+  --light-gray: #FBFBFB;
+  --primary-pen: rgba(0, 0, 0, 0.54);
+  --primary-light: #e0e0e3;
+  --primary-purple: #8975fb;
+  --main-color:#8BA588;
+  --gray: #838383;
+  --dark-pen: #535353;
+  --primary-black: #14151a;
+  --box-shadow:0px 3px 12px 2px rgb(238, 238, 238);
+  --float-right:right;
+  --float-left:left;
+  --main-font:IRANSansWeb;
+  --box-shadow:0px 3px 12px 2px rgb(238, 238, 238);
+  --main-dark:#161b21;
+  --main-pen:rgb(41, 41, 41);
+  --disable-pen:rgb(143, 143, 143);
+  --error:rgb(175, 19, 19);
+}
+body {
+  margin: 0;
+  font-family: "IRANSansWeb";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F7FAFC;
+  padding: 1rem;
+  direction: rtl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+.rtl{
+  direction: rtl;
+}
